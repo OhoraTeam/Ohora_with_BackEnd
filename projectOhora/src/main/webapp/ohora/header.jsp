@@ -237,7 +237,7 @@
                 <span></span>
               </a>
             </div>
-            <div class="big_txt">
+            <div class="big_txt" style="margin-top: 60px;">
               <a class="eng_font big_" href="/product/list.html?cate_no=120">
                 <span>best</span>
               </a>
@@ -261,7 +261,7 @@
                 <span>젤네일팁</span>
               </a>
             </div>
-            <div class="big_txt">
+            <div class="big_txt" style="margin-top: 63px;">
               <a class="eng_font big_" href="/product/list.html?cate_no=161">
                 <span>pedi</span>
               </a>
@@ -285,12 +285,12 @@
               <span></span>
             </div>
 
-            <div class="big_txt">
+            <div class="big_txt" style="margin-top: 80px;">
               <a class="eng_font big_" href="/product/list.html?cate_no=470">
                 <span>custom</span>
               </a>
             </div>
-            <div class="big_txt">
+            <div class="big_txt" style="margin-top: 45px;">
               <a class="eng_font big_" href="/product/list.html?cate_no=49">
                 <span>care &amp; tool</span>
               </a>
@@ -305,13 +305,13 @@
           <!------- 두번째 줄 메뉴 ------>
           <div class="cate_wrap second">
   
-            <div class="big_txt">
+            <div class="big_txt" style="margin-left: 35px; margin-bottom: 42px;">
               <a class="big_ eng_font" href="/event/index.html">
                 <span>event</span>
               </a>
             </div>
 
-            <div class="big_txt">
+            <div class="big_txt" style="margin-left: 35px;  margin-bottom: 42px;">
               <a
                 class="big_ eng_font"
                 href="/board/product/list.html?board_no=4"
@@ -319,9 +319,9 @@
                 <span>review</span>
               </a>
             </div>
-            <div class="big_txt">
+            <div class="big_txt" style="margin-left: 35px;">
               <a class="big_ eng_font" href="#empty">
-                <span>brand</span>
+                <span style="margin-top: 10px;">brand</span>
               </a>
               <a class="" href="/brandstory/brandstory.html">
                 <span>about</span>
@@ -427,81 +427,7 @@
               <a href="/board/gallery/list.html?board_no=13">How to</a>
             </div>
           </div>
-          <!------ 세번째 줄 메뉴 ------>
-          <ul class="shop_zone displaynone">
-            <li style="margin-bottom: 80px">
-              <span class="tit"
-                ><a href="/event/index.html">event<span class="icon"></span></a
-              ></span>
-            </li>
-            <li style="margin-bottom: 80px">
-              <span class="tit"
-                ><a href="/board/product/list.html?board_no=4"
-                  >review<span class="icon"></span></a
-              ></span>
-            </li>
-            <li style="margin-bottom: 60px">
-              <span class="tit"
-                ><a href="/board/gallery/list.html?board_no=13"
-                  >how to<span class="icon"></span></a
-              ></span>
-            </li>
-          </ul>
-          <ul class="shop_zone displaynone">
-            <li>
-              <span class="tit"
-                ><a href="#empty">membership<span class="icon"></span></a
-              ></span>
-              <ul>
-                <li>
-                  <a
-                    lang="ko"
-                    style="font-size: 18px; font-weight: bold"
-                    href="/event/event6.html"
-                    >신규멤버혜택</a
-                  >
-                </li>
-                <li>
-                  <a
-                    lang="ko"
-                    style="font-size: 18px; font-weight: bold"
-                    href="https://ohora2019.cafe24.com/article/notice/14/231291/"
-                    >멤버십</a
-                  >
-                </li>
-                <li>
-                  <a
-                    lang="ko"
-                    style="font-size: 18px; font-weight: bold"
-                    href="/board/free/list.html?board_no=3"
-                    >FAQ</a
-                  >
-                </li>
-                <li>
-                  <a
-                    lang="ko"
-                    style="font-size: 18px; font-weight: bold"
-                    href="/etc/CS.html"
-                    >CS center</a
-                  >
-                </li>
-              </ul>
-            </li>
-            <li>
-              <span class="tit"
-                ><a href="#empty">brand<span class="icon"></span></a
-              ></span>
-              <ul>
-                <li><a href="/brandstory/brandstory.html">about</a></li>
-                <li>
-                  <a href="/board/gallery/list.html?board_no=8">magazine</a>
-                </li>
-                <li>
-                  <a href="/product/list.html?cate_no=290">collaboration</a>
-                </li>
-              </ul>
-            </li>
-          </ul>
+          
         </div>
       </div>
     </div>
