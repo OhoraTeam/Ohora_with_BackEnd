@@ -332,6 +332,7 @@ img {
 
 #fix_position .SMS_fixed_wrap {
   position: absolute;
+  height: 174px;
   left: 0;
   right: 0;
   z-index: 20;
