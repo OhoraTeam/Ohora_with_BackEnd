@@ -378,7 +378,7 @@
                   <a href="/apps/cafe24plusapp/marketing/appdown_link.html"
                     ><div class="imgBox">
                       <img
-                        src="   https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/4cd90f97beaaeddde49bbad02da10bc5.webp"
+                        src="	https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/4cd90f97beaaeddde49bbad02da10bc5.webp"
                         alt="앱 다운 시 무료배송"
                       />
                     </div>
