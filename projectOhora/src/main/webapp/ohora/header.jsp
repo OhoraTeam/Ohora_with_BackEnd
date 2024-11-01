@@ -227,45 +227,45 @@
    
 
             <div class="big_txt">
-              <a class="eng_font big_" href="/product/list.html?cate_no=121">
+              <a class="eng_font big_" href="경로 추가하세요">
                 <span>new</span>
               </a>
-              <a class="" href="/product/list.html?cate_no=123">
+              <a class="">
                 <span></span>
               </a>
-              <a class="" href="/product/list.html?cate_no=124">
+              <a class="">
                 <span></span>
               </a>
             </div>
             <div class="big_txt" style="margin-top: 60px;">
-              <a class="eng_font big_" href="/product/list.html?cate_no=120">
+              <a class="eng_font big_" href="경로 추가하세요">
                 <span>best</span>
               </a>
-              <a href="/product/list.html?cate_no=125">
+              <a href="경로 추가하세요">
                 <span>네일</span>
               </a>
-              <a href="/product/list.html?cate_no=127">
+              <a href="경로 추가하세요">
                 <span>페디</span>
               </a>
             </div>
           </div>
           <div class="cate_wrap first">
             <div class="big_txt">
-              <a class="eng_font big_" href="/product/list.html?cate_no=160">
+              <a class="eng_font big_" href="경로 추가하세요">
                 <span>nail</span>
               </a>
-              <a class="" href="/product/list.html?cate_no=435">
+              <a class="" href="경로 추가하세요">
                 <span>젤스트립</span>
               </a>
-              <a class="" href="/product/list.html?cate_no=436">
+              <a class="" href="경로 추가하세요">
                 <span>젤네일팁</span>
               </a>
             </div>
             <div class="big_txt" style="margin-top: 63px;">
-              <a class="eng_font big_" href="/product/list.html?cate_no=161">
+              <a class="eng_font big_" href="경로 추가하세요">
                 <span>pedi</span>
               </a>
-              <a class="" href="/product/list.html?cate_no=161">
+              <a class="" href="경로 추가하세요">
                 <span>젤스트립</span>
               </a>
             </div>
@@ -273,7 +273,7 @@
 
           <div class="cate_wrap first">
             <div class="big_txt">
-              <a class="eng_font big_" href="/product/list.html?cate_no=671">
+              <a class="eng_font big_" href="경로 추가하세요">
                 <span>outlet</span>
               </a>
             </div>
@@ -286,12 +286,12 @@
             </div>
 
             <div class="big_txt" style="margin-top: 80px;">
-              <a class="eng_font big_" href="/product/list.html?cate_no=470">
+              <a class="eng_font big_" href="경로 추가하세요">
                 <span>custom</span>
               </a>
             </div>
             <div class="big_txt" style="margin-top: 45px;">
-              <a class="eng_font big_" href="/product/list.html?cate_no=49">
+              <a class="eng_font big_" href="경로 추가하세요">
                 <span>care &amp; tool</span>
               </a>
             </div>
@@ -306,7 +306,7 @@
           <div class="cate_wrap second">
   
             <div class="big_txt" style="margin-left: 35px; margin-bottom: 42px;">
-              <a class="big_ eng_font" href="/event/index.html">
+              <a class="big_ eng_font" href="경로 추가하세요">
                 <span>event</span>
               </a>
             </div>
@@ -314,28 +314,25 @@
             <div class="big_txt" style="margin-left: 35px;  margin-bottom: 42px;">
               <a
                 class="big_ eng_font"
-                href="/board/product/list.html?board_no=4"
+                href="경로 추가하세요"
               >
                 <span>review</span>
               </a>
             </div>
             <div class="big_txt" style="margin-left: 35px;">
-              <a class="big_ eng_font" href="#empty">
+              <a class="big_ eng_font" href="경로 추가하세요">
                 <span style="margin-top: 10px;">brand</span>
               </a>
-              <a class="" href="/brandstory/brandstory.html">
+              <a class="" href="경로 추가하세요">
                 <span>about</span>
               </a>
-              <a
-                class=""
-                href="https://ohora2019.cafe24.com/article/notice/14/231291/"
-              >
+              <a class="" href="경로 추가하세요">
                 <span>membership</span>
               </a>
-              <a class="" href="/board/gallery/list.html?board_no=8">
+              <a class="" href="경로 추가하세요">
                 <span>magazine</span>
               </a>
-              <a class="" href="/product/list.html?cate_no=238">
+              <a class="" href="경로 추가하세요">
                 <span>collaboration</span>
               </a>
             </div>
@@ -361,7 +358,7 @@
                   class="SP_eventBn_li swiper-slide swiper-slide-prev"
                 >
                   <a
-                    href="https://events.payco.com/web/share.nhn?evntPageNm=75c7Pl3&amp;pubCode=PUBSTJUOE9"
+                    href="#empty"
                     ><div class="imgBox">
                       <img
                         src="https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/94fad6d6474acf635b9c771591480a7c.png"
@@ -375,7 +372,7 @@
                   df-banner-clone=""
                   class="SP_eventBn_li swiper-slide swiper-slide-active"
                 >
-                  <a href="/apps/cafe24plusapp/marketing/appdown_link.html"
+                  <a href="#empty"
                     ><div class="imgBox">
                       <img
                         src="	https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/4cd90f97beaaeddde49bbad02da10bc5.webp"
@@ -389,7 +386,7 @@
                   df-banner-clone=""
                   class="SP_eventBn_li swiper-slide swiper-slide-next"
                 >
-                  <a href="/event/event6.html"
+                  <a href="#empty"
                     ><div class="imgBox">
                       <img
                         src="https://ohora.kr/web/upload/appfiles/ZaReJam3QiELznoZeGGkMG/0b48933209882b54093f40d23cb23246.webp"
@@ -400,7 +397,7 @@
                   >
                 </div>
               </div>
-              <!-- Add Pagination -->
+              <!-- 스와이퍼 스크롤 -->
               <div class="swiper-scrollbar">
                 <div
                   class="swiper-scrollbar-drag"
@@ -419,12 +416,12 @@
             </div>
             <!--// 오호라 크루 추천-->
             <div class="third_cate">
-              <a href="https://oe9lp.channel.io/home"><span>CS Center</span></a>
-              <a href="/board/free/list.html?board_no=14"
+              <a href="경로 추가하세요"><span>CS Center</span></a>
+              <a href="경로 추가하세요"
                 ><span>Notice</span></a
               >
-              <a href="/board/free/list.html?board_no=3"><span>FAQ</span></a>
-              <a href="/board/gallery/list.html?board_no=13">How to</a>
+              <a href="경로 추가하세요"><span>FAQ</span></a>
+              <a href="경로 추가하세요">How to</a>
             </div>
           </div>
           
@@ -493,25 +490,23 @@
 
     <!-- 오호라 크루 추천 스와이퍼 -->
     <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        var swiper = new Swiper(".swiper-container", {
-          slidesPerView: 1,
-          spaceBetween: 10,
-          loop: false, 
-          pagination: {
-            el: ".swiper-scrollbar",
-            clickable: true,
-          },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          }
-        });
+     $(document).ready(function() {
+      var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 1,
+        spaceBetween: 10,
+        loop: false, 
+        pagination: {
+          el: ".swiper-scrollbar",
+          clickable: true,
+        },
+        navigation: {
+          nextEl: ".swiper-button-next",
+          prevEl: ".swiper-button-prev",
+        }
       });
-    </script>
+    });
 
-    
-    
+    </script>    
   
   </body>
 </html>
