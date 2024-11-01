@@ -5233,7 +5233,7 @@ a {
   .inner
   > div:not(.cate_wrap.crew)
   a {
-  width: 100%;
+  width: 60%;
   display: block;
   color: #000;
   font-size: 17px;
