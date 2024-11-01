@@ -502,7 +502,7 @@ a {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-  margin-bottom: 45px;
+  margin-bottom: 40px;
 }
 
 #fix_position .SMS_fixed_inner .fixed_logo {
@@ -1626,20 +1626,6 @@ a {
   color: inherit;
   font-size: inherit;
 }
-#fix_position .SMS_fixed_inner {
-  position: relative;
-  padding: 0;
-  text-align: center;
-  z-index: 42;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 45px;
-}
 
 #fix_position .SMS_fixed_inner .fixed_logo {
   width: 107px;
@@ -2491,96 +2477,6 @@ a {
 /* 네비게이션 바 */
 @import url("https://fonts.googleapis.com/css?family=Libre+Baskerville:400,700|Noto+Sans+KR:300,400,500,700&display=swap");
 
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-input,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video,
-fieldset {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-  outline: 0;
-}
-
 body,
 html,
 :lang(ko) {
@@ -2982,20 +2878,6 @@ a {
   font-family: inherit;
   color: inherit;
   font-size: inherit;
-}
-#fix_position .SMS_fixed_inner {
-  position: relative;
-  padding: 0;
-  text-align: center;
-  z-index: 42;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-bottom: 45px;
 }
 
 #fix_position .SMS_fixed_inner .fixed_logo {
@@ -3843,18 +3725,98 @@ a {
 
 /* 콘텐츠 css 밑에 입력 */
 
-/* 마우스 오버 */
+/* 마우스 호버 */
 .menu_2ul {
-  display: none !important; 
-  visibility: hidden !important; 
-  opacity: 0 !important; 
-  position: absolute; 
-  z-index: 10; 
-  transition: opacity 0.3s ease; 
+  display: none !important; /* 기본적으로 숨김 */
+  visibility: hidden !important; /* 기본적으로 숨김 */
+  opacity: 0 !important; /* 기본적으로 완전 투명 */
+  position: absolute; /* 위치를 조정 */
+  z-index: 10; /* 다른 요소 위에 표시 */
+  transition: opacity 0.3s ease; /* 부드러운 전환 효과 */
 }
 
 .eng_font:hover .menu_2ul {
-  display: block !important; 
-  visibility: visible !important; 
-  opacity: 1 !important; 
+  display: block !important; /* 마우스 오버 시 표시 */
+  visibility: visible !important; /* 마우스 오버 시 보이기 */
+  opacity: 1 !important; /* 마우스 오버 시 완전 불투명 */
 }
+
+/* 검색 */
+#fix_position .hd_search_container,
+#fix_position .hd_cate_container {
+  display: none;
+  -webkit-box-shadow: 0px 30px 90px 11px rgba(3, 3, 3, 0.07);
+  box-shadow: 0px 30px 90px 11px rgba(3, 3, 3, 0.07);
+}
+
+#fix_position .SP_search_wrap {
+  padding-bottom: 30px 0 50px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.SP_search_wrap {
+  padding: 20px 0 30px;
+  text-align: center;
+}
+
+.SP_search_wrap .SP_utilListSearch_inner {
+  min-width: 1200px;
+}
+
+.SP_search_wrap .SP_utilListSearch_inner form {
+  display: inline-block;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+form {
+  display: block;
+  margin-top: 0em;
+  unicode-bidi: isolate;
+}
+input[type="hidden" i] {
+  display: none !important;
+}
+input:not(
+    [type="image" i],
+    [type="range" i],
+    [type="checkbox" i],
+    [type="radio" i]
+  ) {
+  overflow-clip-margin: 0px !important;
+  overflow: clip !important;
+}
+
+input[type="hidden" i] {
+  appearance: none;
+  background-color: initial;
+  cursor: default;
+  padding: initial;
+  border: initial;
+}
+
+input:not(
+    [type="file" i],
+    [type="image" i],
+    [type="checkbox" i],
+    [type="radio" i]
+  ) {
+}
+
+input {
+  text-rendering: auto;
+  color: fieldtext;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: start;
+  appearance: auto;
+  -webkit-rtl-ordering: logical;
+  cursor: text;
+  background-col
