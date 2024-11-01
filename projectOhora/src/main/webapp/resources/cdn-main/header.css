@@ -3819,4 +3819,1090 @@ input {
   appearance: auto;
   -webkit-rtl-ordering: logical;
   cursor: text;
-  background-col
+  background-color: field;
+  margin: 0em;
+  padding: 1px 0px;
+  border-width: 2px;
+  border-style: inset;
+  border-color: light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+  border-image: initial;
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+fieldset {
+  display: block;
+  min-inline-size: min-content;
+  margin-inline: 2px;
+  border-style: groove;
+  border-image: initial;
+  padding-block: 0.35em 0.625em;
+  padding-inline: 0.75em;
+}
+
+legend {
+  display: block;
+  unicode-bidi: isolate;
+  padding-inline: 2px;
+}
+
+.SP_search_wrap .SP_utilListSearch_inner #keyword {
+  width: 800px;
+  border: none;
+  background: none;
+  border-bottom: 2px solid #111;
+  height: 55px;
+  line-height: 55px;
+  font-size: 23px;
+  color: #111;
+  padding-left: 10px;
+}
+
+body input[type="text"] {
+  display: inline-block;
+  vertical-align: middle;
+  height: 40px;
+  padding-left: 20px;
+  font-size: 15px;
+  color: #000;
+  border: 1px solid #ddd;
+  box-sizing: border-box;
+  min-width: 100px;
+}
+
+input:not(
+    [type="image" i],
+    [type="range" i],
+    [type="checkbox" i],
+    [type="radio" i]
+  ) {
+  overflow-clip-margin: 0px !important;
+  overflow: clip !important;
+}
+
+input[type="text" i] {
+  padding-block: 1px;
+  padding-inline: 2px;
+}
+
+input:not(
+    [type="file" i],
+    [type="image" i],
+    [type="checkbox" i],
+    [type="radio" i]
+  ) {
+}
+
+.SP_search_wrap .SP_utilListSearch_inner .SP_srh_submit_btn {
+  position: absolute;
+  left: auto;
+  right: 10px;
+  top: auto;
+  bottom: 10px;
+  margin-bottom: 10px;
+  margin-right: 8px;
+}
+
+button {
+  background: transparent;
+  border: 0;
+  outline: 0;
+  padding: 0;
+  margin: 0;
+  cursor: pointer;
+}
+
+button {
+  appearance: auto;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  line-height: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  display: inline-block;
+  text-align: center;
+  align-items: flex-start;
+  cursor: default;
+  box-sizing: border-box;
+  margin: 0em;
+  padding-block: 1px;
+  padding-inline: 6px;
+  border-style: outset;
+  border-color: buttonborder;
+  border-image: initial;
+}
+
+/* 돋보기 */
+
+.SP_cm_icon.SP_black_search_icon {
+  width: 28px;
+  height: 28px;
+  margin: 0 auto;
+  background-image: url(https://www.ohora.kr/smartpc/_img/icon/ham_search.png);
+}
+.SP_cm_icon {
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 1px;
+  color: #fff;
+  text-indent: -9999px;
+}
+
+ul,
+li,
+ol,
+dl,
+dt,
+dd {
+  list-style: none;
+}
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+  unicode-bidi: isolate;
+}
+
+.SP_search_wrap .SP_utilListKeyword_inner ul li {
+  display: inline-block;
+  margin: 0 5px;
+}
+
+li {
+  list-style: none;
+}
+ul,
+li,
+ol,
+dl,
+dt,
+dd {
+  list-style: none;
+}
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+  unicode-bidi: isolate;
+}
+
+.SP_search_wrap .SP_utilListKeyword_inner ul li a {
+  display: block;
+  padding: 6px 10px;
+  border: 1px solid #999;
+  background: transparent;
+  color: #000;
+  font-size: 15px;
+}
+
+/* 검색바 스티키 */
+
+.hd_search_container {
+  background: rgb(255, 255, 255, 0.9);
+  top: 154px; /* 네비게이션 바의 높이에 따라 조정 */
+  margin-top: 20px; /* 네비게이션 바와의 간격 */
+  display: none; /* 기본적으로 숨김 */
+  position: absolute; /* 스크롤 시 고정된 위치에 있도록 설정 */
+  width: 100%; /* 가로 전체를 차지하도록 설정 */
+  display: none; /* 기본적으로 숨김 */
+}
+
+/* 더보기 창 */
+#fix_position .hd_search_container,
+#fix_position .hd_cate_container {
+  display: none;
+  -webkit-box-shadow: 0px 30px 90px 11px rgba(3, 3, 3, 0.07);
+  box-shadow: 0px 30px 90px 11px rgba(3, 3, 3, 0.07);
+}
+
+.ham_modify#fix_position .SP_category_wrap {
+  padding: 30px 0 60px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 1px solid #bfbfbf;
+  background: #fff;
+}
+#fix_position .SP_category_wrap {
+  padding: 15px 0 35px;
+  padding-bottom: 50px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff;
+}
+#ivStyle * {
+  letter-spacing: 0px;
+}
+
+.SP_category_wrap {
+  padding: 30px 0 60px;
+  text-align: center;
+}
+
+.ham_modify#fix_position .hd_cate_container .SP_category_wrap .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  min-width: 1040px;
+  margin: 0 auto;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+#fix_position .hd_cate_container .SP_category_wrap .inner {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  max-width: 820px;
+  min-width: 820px;
+  margin: 0 auto;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.SP_category_wrap .inner {
+  display: inline-block;
+  text-align: left;
+  min-width: 1200px;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div:not(.cate_wrap.crew) {
+  width: auto;
+  min-width: 200px;
+}
+#fix_position .hd_cate_container .inner > div {
+  display: inline-block;
+  width: calc((100% - 260px) / 2);
+}
+
+.SP_category_wrap .inner > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ham_modify#fix_position .hd_cate_container .inner > div .big_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div .big_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: -1px;
+}
+
+.ham_modify#fix_position
+  .hd_cate_container
+  .inner
+  > div:not(.cate_wrap.crew)
+  a.eng_font {
+  font-weight: bold;
+}
+.ham_modify#fix_position
+  .hd_cate_container
+  .inner
+  > div:not(.cate_wrap.crew)
+  a {
+  width: 100%;
+  display: block;
+  color: #000;
+  margin: 11px 0;
+  font-size: 17px;
+  line-height: 1;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div .big_txt .big_ {
+  display: block;
+  margin-bottom: 0 !important;
+  width: 100%;
+  font-size: 20px !important;
+  font-weight: medium;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div > .big_txt > a {
+  width: 100%;
+  display: block;
+  margin: 25px 0;
+  margin: 20px 0;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+#fix_position .hd_cate_container .inner > div:not(.cate_wrap.crew) a {
+  width: 100%;
+  display: block;
+  color: #000;
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div .eng_font,
+.ham_modify#fix_position .hd_cate_container .inner > div .eng_font * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div .big_txt .big_ {
+  display: block;
+  margin: 10px 0;
+  margin-bottom: 0 !important;
+  width: 100%;
+  font-size: 24px !important;
+  font-weight: bold;
+}
+#fix_position .hd_cate_container .inner > div > .big_txt > a {
+  width: 100%;
+  display: block;
+  margin: 25px 0;
+  margin: 20px 0;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div .eng_font,
+#fix_position .hd_cate_container .inner > div .eng_font * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: -1px;
+}
+#ivStyle * {
+  letter-spacing: 0px;
+}
+.eng_font,
+.eng_font * {
+  font-family: "Libre Baskerville", "Noto Sans KR", sans-serif !important;
+}
+.eng_font,
+.eng_font * {
+  font-family: "Libre Baskerville", "Noto Sans KR", sans-serif !important;
+}
+:lang(en),
+.eng_font,
+.titleCommon {
+  font-family: "Libre Baskerville", serif !important;
+}
+body,
+html,
+:lang(ko) {
+  font-family: "Noto Sans KR", sans-serif;
+}
+span,
+a {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+pre,
+xmp,
+plaintext,
+listing,
+input,
+textarea,
+select,
+button,
+a {
+  font-family: inherit;
+  line-height: normal;
+}
+a {
+  text-decoration: none;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+input,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: 0;
+}
+* {
+  box-sizing: border-box;
+}
+user agent stylesheet a:-webkit-any-link {
+  color: -webkit-link;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.ham_modify#fix_position .hd_cate_container .inner > div.first a span {
+  position: relative;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div .eng_font,
+.ham_modify#fix_position .hd_cate_container .inner > div .eng_font * {
+  letter-spacing: 0;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div .eng_font,
+#fix_position .hd_cate_container .inner > div .eng_font * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div span {
+  position: relative;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: -1px;
+}
+#ivStyle * {
+  letter-spacing: 0px;
+}
+.eng_font,
+.eng_font * {
+  font-family: "Libre Baskerville", "Noto Sans KR", sans-serif !important;
+}
+.eng_font,
+.eng_font * {
+  font-family: "Libre Baskerville", "Noto Sans KR", sans-serif !important;
+}
+body,
+html,
+:lang(ko) {
+  font-family: "Noto Sans KR", sans-serif;
+}
+span,
+a {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
+.ham_modify#fix_position
+  .hd_cate_container
+  .inner
+  > div:not(.cate_wrap.crew)
+  a.eng_font {
+  font-weight: bold;
+}
+.ham_modify#fix_position
+  .hd_cate_container
+  .inner
+  > div:not(.cate_wrap.crew)
+  a {
+  width: 100%;
+  display: block;
+  color: #000;
+  margin: 11px 0;
+  font-size: 17px;
+  line-height: 1;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div .big_txt .big_ {
+  display: block;
+  margin-bottom: 0 !important;
+  width: 100%;
+  font-size: 20px !important;
+  font-weight: medium;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div > .big_txt > a {
+  width: 100%;
+  display: block;
+  margin: 25px 0;
+  margin: 20px 0;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+#fix_position .hd_cate_container .inner > div:not(.cate_wrap.crew) a {
+  width: 100%;
+  display: block;
+  color: #000;
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div .eng_font,
+.ham_modify#fix_position .hd_cate_container .inner > div .eng_font * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div .big_txt .big_ {
+  display: block;
+  margin: 10px 0;
+  margin-bottom: 0 !important;
+  width: 100%;
+  font-size: 24px !important;
+  font-weight: bold;
+}
+#fix_position .hd_cate_container .inner > div > .big_txt > a {
+  width: 100%;
+  display: block;
+  margin: 25px 0;
+  margin: 20px 0;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div .eng_font,
+#fix_position .hd_cate_container .inner > div .eng_font * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: -1px;
+}
+#ivStyle * {
+  letter-spacing: 0px;
+}
+.eng_font,
+.eng_font * {
+  font-family: "Libre Baskerville", "Noto Sans KR", sans-serif !important;
+}
+.eng_font,
+.eng_font * {
+  font-family: "Libre Baskerville", "Noto Sans KR", sans-serif !important;
+}
+:lang(en),
+.eng_font,
+.titleCommon {
+  font-family: "Libre Baskerville", serif !important;
+}
+body,
+html,
+:lang(ko) {
+  font-family: "Noto Sans KR", sans-serif;
+}
+span,
+a {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
+a:-webkit-any-link {
+  cursor: pointer;
+}
+
+.ham_modify#fix_position .hd_cate_container .inner > div.first a span {
+  position: relative;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div .eng_font,
+.ham_modify#fix_position .hd_cate_container .inner > div .eng_font * {
+  letter-spacing: 0;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div .eng_font,
+#fix_position .hd_cate_container .inner > div .eng_font * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div span {
+  position: relative;
+  font-size: inherit;
+  color: inherit;
+  line-height: inherit;
+}
+#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: -1px;
+}
+#ivStyle * {
+  letter-spacing: 0px;
+}
+.eng_font,
+.eng_font * {
+  font-family: "Libre Baskerville", "Noto Sans KR", sans-serif !important;
+}
+.eng_font,
+.eng_font * {
+  font-family: "Libre Baskerville", "Noto Sans KR", sans-serif !important;
+}
+body,
+html,
+:lang(ko) {
+  font-family: "Noto Sans KR", sans-serif;
+}
+span,
+a {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
+.ham_modify#fix_position .hd_cate_container .inner > div .big_txt .big_ + a {
+  margin-top: 30px;
+}
+.ham_modify#fix_position
+  .hd_cate_container
+  .inner
+  > div:not(.cate_wrap.crew)
+  a {
+  width: 100%;
+  display: block;
+  color: #000;
+  margin: 11px 0;
+  font-size: 17px;
+  line-height: 1;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div > .big_txt > a {
+  width: 100%;
+  display: block;
+  margin: 25px 0;
+  margin: 20px 0;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+#fix_position .hd_cate_container .inner > div .big_txt .big_ + a {
+  margin-top: 30px;
+}
+#fix_position .hd_cate_container .inner > div:not(.cate_wrap.crew) a {
+  width: 100%;
+  display: block;
+  color: #000;
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+#fix_position .hd_cate_container .inner > div > .big_txt > a {
+  width: 100%;
+  display: block;
+  margin: 25px 0;
+  margin: 20px 0;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: -1px;
+}
+#ivStyle * {
+  letter-spacing: 0px;
+}
+body,
+html,
+:lang(ko) {
+  font-family: "Noto Sans KR", sans-serif;
+}
+span,
+a {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+
+.ham_modify#fix_position .hd_cate_container .inner > div:not(.cate_wrap.crew) {
+  width: auto;
+  min-width: 200px;
+}
+#fix_position .hd_cate_container .inner > div {
+  display: inline-block;
+  width: calc((100% - 260px) / 2);
+}
+#ivStyle * {
+  letter-spacing: 0px;
+}
+.SP_category_wrap .inner > div {
+  display: inline-block;
+  vertical-align: top;
+}
+body,
+html,
+:lang(ko) {
+  font-family: "Noto Sans KR", sans-serif;
+}
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+input,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video,
+fieldset {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+  outline: 0;
+}
+* {
+  box-sizing: border-box;
+}
+user agent stylesheet div {
+  display: block;
+  unicode-bidi: isolate;
+}
+.SP_category_wrap .inner {
+  display: inline-block;
+  text-align: left;
+  min-width: 1200px;
+}
+.ham_modify#fix_position .SP_category_wrap {
+  padding: 30px 0 60px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-top: 1px solid #bfbfbf;
+  background: #fff;
+}
+#fix_position .SP_category_wrap {
+  padding: 15px 0 35px;
+  padding-bottom: 50px;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  background: #fff;
+}
+.SP_category_wrap {
+  padding: 30px 0 60px;
+  text-align: center;
+}
+
+.ham_modify#fix_position .hd_cate_container .inner > div:not(.cate_wrap.crew) {
+  width: auto;
+  min-width: 200px;
+}
+#fix_position .hd_cate_container .inner > div {
+  display: inline-block;
+  width: calc((100% - 260px) / 2);
+}
+#ivStyle * {
+  letter-spacing: 0px;
+}
+.SP_category_wrap .inner > div {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.ham_modify#fix_position .hd_cate_container .inner > div .big_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div .big_txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+}
+#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: -1px;
+}
+
+.ham_modify#fix_position
+  .hd_cate_container
+  .inner
+  > div:not(.cate_wrap.crew)
+  a.eng_font {
+  font-weight: bold;
+}
+.ham_modify#fix_position
+  .hd_cate_container
+  .inner
+  > div:not(.cate_wrap.crew)
+  a {
+  width: 100%;
+  display: block;
+  color: #000;
+  margin: 11px 0;
+  font-size: 17px;
+  line-height: 1;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div .big_txt .big_ {
+  display: block;
+  margin-bottom: 0 !important;
+  width: 100%;
+  font-size: 20px !important;
+  font-weight: medium;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div a:last-child {
+  margin-bottom: 0 !important;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div > .big_txt > a {
+  width: 100%;
+  display: block;
+  margin: 25px 0;
+  margin: 20px 0;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+#fix_position .hd_cate_container .inner > div:not(.cate_wrap.crew) a {
+  width: 100%;
+  display: block;
+  color: #000;
+  margin: 10px 0;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div .eng_font,
+.ham_modify#fix_position .hd_cate_container .inner > div .eng_font * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div .big_txt .big_ {
+  display: block;
+  margin: 10px 0;
+  margin-bottom: 0 !important;
+  width: 100%;
+  font-size: 24px !important;
+  font-weight: bold;
+}
+#fix_position .hd_cate_container .inner > div a:last-child {
+  margin-bottom: 0 !important;
+}
+#fix_position .hd_cate_container .inner > div > .big_txt > a {
+  width: 100%;
+  display: block;
+  margin: 25px 0;
+  margin: 20px 0;
+  color: #000;
+  font-size: 16px;
+  line-height: 1.5;
+}
+.ham_modify#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div .eng_font,
+#fix_position .hd_cate_container .inner > div .eng_font * {
+  letter-spacing: 0;
+}
+#fix_position .hd_cate_container .inner > div * {
+  letter-spacing: -1px;
+}
+#ivStyle * {
+  letter-spacing: 0px;
+}
+.eng_font,
+.eng_font * {
+  font-family: "Libre Baskerville", "Noto Sans KR", sans-serif !important;
+}
+.eng_font,
+.eng_font * {
+  font-family: "Libre Baskerville", "Noto Sans KR", sans-serif !important;
+}
+:lang(en),
+.eng_font,
+.titleCommon {
+  font-family: "Libre Baskerville", serif !important;
+}
+body,
+html,
+:lang(ko) {
+  font-family: "Noto Sans KR", sans-serif;
+}
+span,
+a {
+  font-family: inherit;
+  color: inherit;
+  font-size: inherit;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+table,
+pre,
+xmp,
+plaintext,
+listing,
+input,
+textarea,
+select,
+button,
+a {
+  font-family: inherit;
+  line-height: normal;
+}
