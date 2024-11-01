@@ -488,5 +488,30 @@
       });
     </script>
 
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- 오호라 크루 추천 스와이퍼 -->
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var swiper = new Swiper(".swiper-container", {
+          slidesPerView: 1,
+          spaceBetween: 10,
+          loop: false, 
+          pagination: {
+            el: ".swiper-scrollbar",
+            clickable: true,
+          },
+          navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+          }
+        });
+      });
+    </script>
+
+    
+    
+  
   </body>
 </html>
