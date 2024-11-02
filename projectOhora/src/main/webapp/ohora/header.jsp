@@ -433,7 +433,6 @@
   </div> <!-- sticky 적용을 위한 태그-->
 
   
- 
   <!-- 슬라이더 초기화 코드 -->
     <script>
       $(document).ready(function () {
